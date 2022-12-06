@@ -1,0 +1,51 @@
+html {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #39628D;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    align-content:center;    
+    width: 1200px;
+}
+
+td{
+    padding: 5px 10px 5px 10px;
+}
+
+tr{
+    border-bottom-color: black;
+    border-bottom: 1px;
+    border-bottom-style: inset;
+    border-radius: 5px;
+}
+
+tr:hover{
+    background-color: #d8d8d8;
+}
+
+#flexSwitchCheckDefault:checked {
+    background-color: #198754;
+    border-color: #198754;
+    border-top-color: rgb(25, 135, 84);
+    border-right-color: rgb(25, 135, 84);
+    border-bottom-color: rgb(25, 135, 84);
+    border-left-color: rgb(25, 135, 84);
+}
